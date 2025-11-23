@@ -1,5 +1,4 @@
 # Cloudflare AI Chat App
-![Cloudflare AI Chat screenshot](image.png)
 
 An AI-powered chat experience running entirely on Cloudflare’s developer platform.  
 The Worker serves a beautiful Pages-style UI, routes chat messages through a Durable Object for per-session memory, and streams prompts to Workers AI (Llama 3 Instruct) for responses.
