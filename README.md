@@ -35,12 +35,4 @@ The UI disables the Send button and shows “Thinking…” while the Worker awa
 ```bash
 npm run deploy
 ```
-This publishes the Worker, Durable Object migrations, and static assets using the bindings defined in `wrangler.jsonc`.
 
-## Optional Assignment Checklist
-- ✅ LLM via Workers AI (`@cf/meta/llama-3-8b-instruct`)
-- ✅ Coordination with Durable Objects
-- ✅ User chat UI hosted via Worker assets
-- ✅ Memory/state persisted per session
-
-Submit this repo URL (`https://github.com/Ahmed-ie/CloudFlare`) for review once deployed.
