@@ -3,7 +3,8 @@
 An AI-powered chat experience running entirely on Cloudflare’s developer platform.  
 The Worker serves a beautiful Pages-style UI, routes chat messages through a Durable Object for per-session memory, and streams prompts to Workers AI (Llama 3 Instruct) for responses.
 
-![UI concept illustration](docs/ui-preview.svg)
+<img width="969" height="699" alt="image" src="https://github.com/user-attachments/assets/5adbc782-a2c8-4d23-8d65-404198258a91" />
+
 
 ## Features
 - **Workers AI (Llama 3 Instruct)** – generates natural-language responses for every user prompt.
