@@ -1,0 +1,85 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="36" fill="url(#bg)"/>
+  <g filter="url(#shadow-card)">
+    <rect x="160" y="80" width="960" height="560" rx="48" fill="url(#card)"/>
+  </g>
+  <text x="220" y="170" fill="#0B0D17" font-family="Inter, sans-serif" font-size="36" font-weight="700">
+    Cloudflare AI Chat
+  </text>
+  <text x="220" y="212" fill="#5F6B7C" font-family="Inter, sans-serif" font-size="20">
+    Chat in real time with Workers AI and Durable Objects. Every session keeps its own memory.
+  </text>
+
+  <g filter="url(#shadow-pane)">
+    <rect x="220" y="250" width="840" height="320" rx="32" fill="#FFFFFF"/>
+  </g>
+  <g filter="url(#shadow-user)">
+    <path d="M880 320H1060C1076.57 320 1090 333.431 1090 350V390C1090 406.569 1076.57 420 1060 420H880L820 360L880 320Z"
+          fill="url(#chat-bubble)"/>
+    <text x="900" y="366" fill="#FFFFFF" font-family="Inter, sans-serif" font-size="18">
+      hello, what is your name?
+    </text>
+  </g>
+
+  <g filter="url(#shadow-assistant)">
+    <rect x="260" y="360" width="540" height="140" rx="24" fill="#FFFFFF"/>
+    <text x="280" y="400" fill="#0B0D17" font-family="Inter, sans-serif" font-size="18">
+      Hello! I don't have a personal name, but I'm an AI designed to assist and
+    </text>
+    <text x="280" y="430" fill="#0B0D17" font-family="Inter, sans-serif" font-size="18">
+      communicate with you. How can I help you today?
+    </text>
+  </g>
+
+  <g filter="url(#shadow-input)">
+    <rect x="220" y="600" width="700" height="64" rx="32" stroke="#B6C3FF" stroke-width="2" fill="white"/>
+    <text x="260" y="640" fill="#A0A8C3" font-family="Inter, sans-serif" font-size="18">
+      Ask anything...
+    </text>
+  </g>
+
+  <g filter="url(#shadow-send)">
+    <rect x="940" y="600" width="120" height="64" rx="32" fill="url(#send-gradient)"/>
+    <text x="980" y="640" fill="white" font-family="Inter, sans-serif" font-size="20" font-weight="600">
+      Send
+    </text>
+  </g>
+
+  <defs>
+    <linearGradient id="bg" x1="640" y1="0" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8F7FF"/>
+      <stop offset="1" stop-color="#E2E9FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="640" y1="80" x2="640" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F5F7FF"/>
+    </linearGradient>
+    <linearGradient id="chat-bubble" x1="820" y1="320" x2="1090" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7F5DFF"/>
+      <stop offset="1" stop-color="#5EC7FF"/>
+    </linearGradient>
+    <linearGradient id="send-gradient" x1="940" y1="600" x2="1060" y2="664" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7F5DFF"/>
+      <stop offset="1" stop-color="#5EC7FF"/>
+    </linearGradient>
+
+    <filter id="shadow-card" x="120" y="40" width="1040" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="30" flood-color="#0D17261A"/>
+    </filter>
+    <filter id="shadow-pane" x="200" y="240" width="880" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#0D172614"/>
+    </filter>
+    <filter id="shadow-user" x="780" y="300" width="340" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#795CFF33"/>
+    </filter>
+    <filter id="shadow-assistant" x="240" y="340" width="580" height="180" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0D172614"/>
+    </filter>
+    <filter id="shadow-input" x="200" y="580" width="740" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#BBD2FF66"/>
+    </filter>
+    <filter id="shadow-send" x="920" y="580" width="160" height="104" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#795CFF66"/>
+    </filter>
+  </defs>
+</svg>
